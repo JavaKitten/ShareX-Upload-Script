@@ -3,21 +3,19 @@ ShareX Upload Script
 upload.php configuration
 --
 
-Change $uploadhost to the same as $redirect (sometimes)
-Change $key to whatever you'd like
-Change $directory to the directory your web server is located, If using bought hosting (not vps) will most likely be public_html.
-Make sure to make a directory named "i"
+Change $uploadhost to the same as $redirect (sometimes) <br />
+Change $key to whatever you'd like <br />
+Change $directory to the directory your web server is located, If using bought hosting (not vps) will most likely be public_html. <br />
+Make sure to make a directory named "i" <br />
 
 ShareX configuration
 --
 
-Click on destinations, Then destination settings
-Scroll down to "Custom Uploaders"
+Click on destinations, Then destination settings <br />
+Scroll down to "Custom Uploaders" <br />
 
-
-Change name to whatever you'd like
-
-Request Type: POST
-Response Type: Response Text
-File form name: FileUpload
-Request URL: YOURWEBSITE/upload.php?key=YOUR KEY HERE
+Name: WHATEVER YOU WANT <br />
+Request Type: POST <br />
+Response Type: Response Text <br />
+File form name: FileUpload <br />
+Request URL: YOURWEBSITE/upload.php?key=YOUR KEY HERE <br />

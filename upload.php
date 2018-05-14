@@ -1,6 +1,5 @@
 <?php
 
-//Directory your website is located, If using bought hosting (not vps) will most likely be public_html.
 $directory = "public_html";
 $key = "SPECIAL_KEY";
 $uploadhost = "http://YOURWEBSITE";
